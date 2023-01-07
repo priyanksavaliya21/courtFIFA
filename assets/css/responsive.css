@@ -1,0 +1,999 @@
+@media (min-width: 1200px) {
+
+  header .container,
+  .footer_sec1 .container,
+  .footer_sec2 .container {
+    max-width: 1488px;
+  }
+
+  .section_1 .container {
+    max-width: 1082px;
+  }
+
+  .section-2 .container,
+  .section-3 .container,
+  .page2_sec1 .container,
+  .page2_sec2 .container,
+  .page2_sec3 .container,
+  .page2_sec4 .container {
+    max-width: 1300px;
+  }
+
+  .page2_sec3 .container:nth-child(2) {
+    max-width: 1050px !important;
+  }
+
+  .page2_sec4 .container:last-child {
+    max-width: 1100px;
+  }
+}
+
+@media (max-width: 1800px) {}
+
+@media (max-width: 1600px) {
+  .divider {
+    max-width: 1330px;
+    padding: 80px 0px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .nav-menu li {
+    margin-left: 20px;
+  }
+
+  .sec1_text h1 {
+    font-size: 65px;
+  }
+
+  .section_1 {
+    padding: 150px 0px 150px 0px;
+
+  }
+
+  .part-4,
+  .part-1,
+  .part-2,
+  .part-3,
+  .part-5 {
+    padding: 0px 15px;
+  }
+}
+
+@media (max-width: 1360px) {
+  .owl-prev {
+    left: -12px;
+
+  }
+
+  .owl-next {
+    right: -12px;
+
+  }
+
+  br {
+    display: none;
+  }
+}
+
+@media (max-width: 1280px) {
+  .card {
+    min-height: 483px;
+  }
+
+  .clipcard {
+    padding: 30px 23px;
+  }
+
+  .fifa_padding {
+    padding: 0px 100px;
+  }
+
+}
+
+@media (max-width: 1199px) {
+
+  /* header-media */
+  .nav-menu li {
+    margin-left: 0px;
+  }
+
+  .img2 {
+    top: 29px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .active .bar:nth-child(1) {
+    -webkit-transform: translateY(8px) rotate(-315deg);
+    transform: translateY(8px) rotate(-315deg);
+    width: 300%;
+  }
+
+  .active .bar:nth-child(3) {
+    -webkit-transform: translateY(-10px) rotate(-45deg);
+    transform: translateY(-10px) rotate(-45deg);
+    width: 300%;
+  }
+
+  .nav-menu {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: calc(0% + 75px);
+    right: -100%;
+    -webkit-transition: 0.5s;
+    transition: all 0.8s  ease 0s;
+    margin: 0 auto;
+    background-color: #dddddd;
+    z-index: -2;
+    clip-path: circle(0.3% at 100% 0);
+  }
+
+  .nav-menu li {
+    padding: 1rem 0;
+  }
+
+  a.nav-link {
+    color: #333;
+    z-index: 1;
+  }
+
+  .navbar .active {
+    right: 0;
+    clip-path: circle( 100%);
+  }
+
+  /* section-1 */
+  .box1 {
+    padding: 45px 50px 45px 50px;
+  }
+
+  .btn-search {
+    font-size: 16px;
+    padding: 16px 49px;
+  }
+
+  .btn-search img:last-child {
+    top: 32%;
+    left: 26.3%;
+  }
+
+  .section-2 {
+    padding: 90px 0px;
+  }
+
+  .sec2-row2 {
+    padding-top: 35px;
+  }
+
+  .cardx-body {
+    min-height: 279px;
+  }
+
+  .iconbox {
+    top: 30%;
+  }
+
+  .section-3 {
+    padding-bottom: 85px;
+  }
+
+  .topbox span {
+    font-size: 10px;
+  }
+
+  .topbox h5 {
+    font-size: 24px;
+  }
+
+  .topbox {
+    padding: 9px;
+  }
+
+  /* --------------------- */
+  /* footer */
+  .part-1,
+  .part-5 {
+    width: 50%;
+    text-align: center;
+  }
+
+  .part-1 {
+    order: -2;
+  }
+
+  .part-5 {
+    order: -1;
+  }
+
+  .part-2,
+  .part-3,
+  .part-4 {
+    width: 33.33%;
+    text-align: center;
+  }
+
+  .part-2 {
+    border-left: 1px solid #c5c7cb9c;
+  }
+
+  .sec2head h2 {
+    font-size: 38px;
+    margin-bottom: 65px;
+  }
+
+  /* page-2 */
+  .owl-theme .owl-nav [class*=owl-] {
+    width: 45px;
+    height: 45px;
+  }
+
+  .infocard {
+    padding: 25px 25px;
+
+  }
+
+  .clipcard_p,
+  .Court-Info:first-child p,
+  .local-text p,
+  .f19 {
+    font-size: 16px !important;
+  }
+
+  .infocard h4,
+  .player_c p {
+    font-size: 22px;
+
+  }
+
+  .padding_b80 {
+    padding: 60px 0px 35px 0px;
+  }
+
+  .page2_sec2,
+  .fifa_btn-p {
+    padding: 15px 0px 60px 0px !important;
+  }
+
+  .page2_sec1,
+  .page2_sec3 .footer_sec1 {
+    padding: 55px 0px;
+  }
+
+  .sec2head h2,
+  .Court-Info h3,
+  .sec-4text h3 {
+    font-size: 38px;
+
+  }
+
+  .page2_sec3,
+  .page2_sec4,
+  .p-100 {
+    padding: 70px 0px;
+  }
+
+  .player_c h3,
+  .weather h3 {
+    font-size: 32px;
+  }
+
+  .player_c p {
+    margin: 20px 0px 25px 0px;
+  }
+
+  .sec-4text h3 {
+    margin-bottom: 25px !important;
+  }
+
+  .thead h3,
+  .local-text span,
+  .fifa_tbl .thead h3,
+  .player_c .fifa_tbl .thead h4 , .The_basketball {
+    font-size: 18px;
+  }
+
+  .rowcard p,
+  img[ alt="Rating 5"]+span,
+  .li2 span {
+    font-size: 12px;
+  }
+
+  .location_text {
+    font-size: 14px;
+  }
+
+  img[ alt="Rating 5"] {
+    max-width: 70%;
+  }
+
+  .li1,
+  .li2,
+  .li3,
+  .li4,
+  .li5 {
+    padding-right: 0px;
+  }
+
+  .sec-4-end {
+    margin: 30px 0px 60px 0px;
+  }
+
+  .local-text {
+    margin-left: 18px;
+  }
+
+  .divider {
+    max-width: 980px;
+    padding: 60px 0px;
+  }
+  .Rosendalshallen {
+    font-size: 44px;
+}
+
+  .fifa_padding {
+    padding: 0px 15px;
+  }
+  .btn-page2_p , .sec-1-end a , .sec2-btn-last a ,  .page2_sec3 .btn-page2 , .sec-4-end a, .sec-5-end a {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  img[ alt=fiba] {
+    max-width: 70%;
+  }
+
+  .divider {
+    max-width: 750px;
+    padding: 45px 0px;
+  }
+
+  .sec-5-end,
+  .local-text {
+    margin: 0px !important;
+  }
+
+  .sec1_text h1 {
+    font-size: 65px;
+  }
+
+  .section_1 {
+    padding: 100px 0px 100px 0px;
+  }
+
+  .sec1_text h1 {
+    font-size: 55px;
+  }
+
+  .box1_input {
+
+    margin-right: 0px;
+    margin-bottom: 16px;
+  }
+
+  .btn-search img:last-child {
+    top: 31%;
+    left: 26.3%;
+  }
+
+  .label_text,
+  .The_basketball,
+  .filter {
+    font-size: 16px;
+  }
+
+  .checkbox_part {
+    padding-top: 25px;
+  }
+
+  .section-2 {
+    padding: 65px 0px;
+  }
+
+  .sec2head h2 {
+    font-size: 32px;
+    margin-bottom: 60px;
+  }
+
+  .card {
+    min-height: 508px;
+    box-shadow: 0px 0px 15px 0px rgb(47 53 66 / 9%);
+  }
+
+  .iconbox {
+    top: 34%;
+  }
+
+  .section-3 .sec2head h2 {
+    font-size: 32px;
+    margin-bottom: 30px !important;
+  }
+
+  .section-3 {
+    padding-bottom: 75px;
+  }
+
+  .footer_sec1 {
+    padding: 50px 0px 40px 0px;
+  }
+
+  .topbox {
+    top: 2.5%;
+    right: 3%;
+  }
+
+  /* page-2 */
+  .page2_sec1,
+  .page2_sec3 .footer_sec1 {
+    padding: 35px 0px;
+  }
+
+  
+  .dark_g .Rosendalshallen {
+    font-size: 40px !important;
+
+  }
+
+  img[ alt="Rating 5"]+span {
+    vertical-align: baseline !important;
+  }
+
+  .page2_sec2,
+  .fifa_btn-p {
+    padding: 15px 0px 40px 0px !important;
+  }
+
+  .page2_sec3,
+  .page2_sec4,
+  .p-100 {
+    padding: 50px 0px;
+  }
+
+  .sec-4text h3,  .Court-Info h3 ,.Rosendalshallen , .sec2head h2 {
+    font-size: 30px;
+  }
+
+  .tbody,
+  .fifa_tbl {
+    overflow-x: scroll;
+  }
+
+  .tbody ul,
+  .fifa_tbl ul {
+    min-width: 930px;
+    white-space: nowrap;
+  }
+
+  .thead h3,
+  .text-box::placeholder,
+  .text-box2::placeholder,
+  .player_c .fifa_tbl .thead h4,
+  .fifa_tbl .rowcard span,
+  .fifa_tbl .thead h3 {
+    font-size: 14px;
+  }
+
+  .dropdown {
+    width: 160px;
+    height: 50px;
+  }
+
+  .dropdown2 {
+    width: 180px;
+    height: 50px;
+  }
+
+  .dropdown::before,
+  .dropdown2::before {
+    top: 22px;
+    right: 18px;
+    width: 13px;
+    height: 7px;
+  }
+
+  .owl-prev {
+    left: -2%;
+    top: 42%;
+  }
+
+  .owl-next {
+    right: -2%;
+    top: 42%;
+  }
+
+  .local-info ul li {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .local-info ul li img {
+    margin-bottom: 10px;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  /* section-1 */
+  .section_1 {
+    padding: 70px 0px 70px 0px;
+  }
+
+  .box1 {
+    padding: 40px 40px 40px 40px;
+  }
+
+  .checkbox_part ul li {
+    width: 40%;
+    margin-left: 0px;
+  }
+
+  .sec1_text h1 {
+    font-size: 44px;
+  }
+
+  .card {
+    min-height: 565px;
+    border: 1px solid #fceeee !important;
+  }
+
+  .sec2-row2 {
+    padding-top: 15px;
+  }
+
+  .cardx-body {
+    min-height: auto;
+  }
+
+  .iconbox {
+    top: 3.5%;
+    right: 4%;
+  }
+
+  .cardx-body {
+    padding: 20px;
+  }
+
+  .located {
+    padding-bottom: 15px;
+  }
+
+  /* page-2 */
+  .clipcard_p,
+  .player_c p {
+    font-size: 18px;
+  }
+
+  .imgmxw {
+    max-width: 60%;
+  }
+
+  .padding_b80 {
+    padding: 35px 0px 35px 0px;
+  }
+
+  .player_c h3,
+  .sec-4text h3 {
+    font-size: 24px;
+  }
+
+  .weather h3 {
+    font-size: 28px;
+  }
+
+  .dropdown .options,
+  .dropdown2 .options {
+    top: 58px;
+  }
+
+  .sec-4-end {
+    margin: 20px 0px 40px 0px;
+  }
+
+  .local-info ul li {
+    width: 33%;
+    margin-bottom: 15px;
+  }
+
+  .f_media , .f1-text_theme {
+    font-size: 14px;
+  }
+  .f_head{
+    font-size: 15px;
+  }
+
+  .dark_g .Rosendalshallen {
+    font-size: 36px !important;
+  }
+  .clipcard img[ alt = location ] {
+    max-width: 65px;
+}
+}
+
+@media (max-width: 575px) {
+
+  .w-calc,
+  .w-80 {
+    width: 100%;
+  }
+
+  .img2 {
+    top: 20px;
+  }
+
+  a.nav-link {
+    padding: 0.75rem 0;
+  }
+
+  .nav-menu li {
+    padding: 0.8rem 0;
+  }
+
+  .logo {
+    max-width: 250px;
+  }
+
+  .nav-item a.nav-link {
+    padding: 5px 0px;
+  }
+
+  header,
+  .sec2-row2 {
+    padding: 0px 0px;
+  }
+
+  .nav-menu {
+    top: calc(0% + 30px);
+  }
+
+  /* .section_1 */
+  .sec1home,
+  .sec-4-end a span,
+  .sec-5-end a span {
+    padding: 0px 15px;
+  }
+
+  .label_text {
+    font-size: 13px;
+  }
+
+  .sec1_text h1
+  {
+    font-size: 32px !important;
+  }
+
+  .box1,
+  .clipcard {
+    padding: 25px;
+  }
+
+  .search2,
+  .iconbox {
+    padding: 11px 15px;
+  }
+
+  .btn-search {
+    font-size: 14px;
+    padding: 10px 30px;
+  }
+
+  .btn-search img:last-child {
+    top: 32%;
+    left: 21.3%;
+  }
+
+  .checkbox_part,
+  .owl-nav {
+    padding-top: 15px;
+  }
+
+  .sec1_text,
+  .sec-1-end p,
+  .dropdown,
+  .sec-4-end {
+    margin-bottom: 18px;
+  }
+
+  .search2::placeholder,
+  .boxl+p,
+  .star span:last-child,
+  .cardx-body span:last-child,
+  .clipcard_p,
+  .player_c p,
+  .card-body p,
+  .sec-1-end p,
+  .local-text p,
+  .local-text span,
+  .f1-text_theme,
+  .The_basketball,
+  .btn-page2,
+  .Court-Info:first-child p {
+    font-size: 14px;
+  }
+
+  .fifa_tbl .rowcard span,
+  .fifa_tbl .thead h3 ,  .clipcard_p {
+    font-size: 14px !important;
+  }
+  .infocard h4 , .player_c h3{
+    font-size: 18px;
+  }
+  .section-2 {
+    padding: 50px 0px;
+  }
+
+  .sec2head h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+
+  .card-body {
+    padding: 20px;
+  }
+
+  .card {
+    min-height: 521px;
+  }
+
+  .dark_g .Rosendalshallen {
+    font-size: 28px !important;
+  }
+
+  .card-body h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .section-3 .sec2head h2 {
+    font-size: 24px;
+    margin-bottom: 20px !important;
+  }
+
+  .section-3 {
+    padding-bottom: 50px;
+  }
+
+  .border_left>ul {
+    display: none;
+  }
+
+  /* footer */
+  .part-2,
+  .part-3,
+  .part-4,
+  .part-1,
+  .part-5 {
+    width: 100%;
+    text-align: left;
+  }
+
+
+  .f1-text {
+    margin-top: 18px;
+  }
+
+  .footer_title {
+    background-color: rgb(223, 228, 234);
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 4px 0px rgb(47 53 66 / 15%);
+  }
+
+  .f_head {
+    font-size: 16px;
+    color: rgb(50, 42, 42);
+    margin-bottom: 0px;
+    vertical-align: middle;
+  }
+
+  .footer_title+ul {
+    padding: 15px;
+  }
+
+  .footer_sec2 .container {
+    padding: 15px 0px;
+  }
+
+  .footer_sec1 {
+    padding: 40px 0px 30px 0px;
+  }
+
+  .btn-page2 img {
+    width: 17px;
+  }
+
+  .btn-search img {
+    width: 15px;
+  }
+
+  /* page-2 */
+  .page2_sec1 {
+    padding: 35px 0px;
+  }
+
+  .clipcard {
+    min-height: auto;
+  }
+
+  .owl-theme .owl-nav [class*=owl-],
+  .owl-nav {
+    position: static;
+    text-align: center !important;
+  }
+
+  .owl-theme .owl-nav [class*=owl-] {
+    width: 35px;
+    height: 35px;
+    margin: 5px !important;
+  }
+
+  .nav-btn {
+    width: 8px !important;
+    height: 10px;
+  }
+
+  .padding_b80 {
+    padding: 35px 0px 25px 0px;
+  }
+
+  .Court-Info h3,
+  .weather h3  {
+    font-size: 25px;
+  }
+  .Rosendalshallen{
+    font-size: 28px!important;
+  }
+
+  .sec-1-end a {
+    padding: 10.2px 12px;
+    font-size: 12px !important;
+  }
+
+ 
+
+  .page2_sec3 .btn-page2,
+  .sec2-btn-last a,
+  .sec-4-end a,
+  .sec-5-end a {
+    padding: 4px 25px !important;
+  }
+
+  .table1 div:first-child {
+    flex-direction: column;
+  }
+
+  .dropdown,
+  .dropdown2 {
+    width: 100%;
+  }
+
+  .sec-4text h3 {
+    font-size: 20px;
+    margin-bottom: 7px !important;
+  }
+
+  .rowcard {
+    padding: 16px 16px;
+
+  }
+
+  .thead {
+    padding: 0px 16px;
+  }
+
+  .tbody ul {
+    min-width: 890px;
+  }
+
+  .local-info ul li {
+    width: 50%;
+  }
+
+  .f_media ,  .Court-Info:first-child p {
+    font-size: 12px !important;
+  }
+
+  .fifa_tbl ul {
+    min-width: 680px;
+  }
+  .clipcard img[ alt = location ] , .infocard img[ alt = icons ]{
+    max-width: 50px;
+  }
+  .imgmxw {
+    max-width: 120px;
+}
+.part-1 img{
+  max-width: 140px;
+}
+
+}
+
+@media (max-width: 450px) {
+
+  .sec1_text h1 {
+    font-size: 28px;
+  }
+
+  .checkbox_part ul li {
+    width: 100%;
+    font-size: 8px;
+    margin-bottom: 10px;
+  }
+
+  .sec1home,
+  .card-body .link_card {
+    padding: 0px;
+  }
+
+  .card {
+    min-height: 465px;
+  }
+
+  .btn-search,
+  .btn-page2,
+  .sec-4-end a,
+  .sec-5-end a {
+    font-size: 12px;
+  }
+
+  .divider {
+    padding: 35px 0px;
+
+  }
+}
+
+@media (max-width: 400px) {
+  .card {
+    min-height: 425px;
+  }
+
+  .dark_g .Rosendalshallen , .Rosendalshallen {
+    font-size: 22px !important;
+  }
+}
+
+@media (max-width: 367px) {
+  .logo {
+    max-width: 200px;
+  }
+
+  .sec1_text h1,
+  .Court-Info h3,
+  .weather h3 {
+    font-size: 22px;
+  }
+
+  .Court-Info:first-child p , .The_basketball  {
+    font-size: 12px;
+  }
+  .sec2head h2 {
+    font-size: 20px;
+}
+  .card {
+    min-height: 432px;
+  }
+}
